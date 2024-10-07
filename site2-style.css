@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+}
+
+
+header .fundo {
+    background-image: url("multidao-assistindo.jpg");
+    filter: brightness(0.4);
+    width: 100%; /* A imagem cobrirá toda a largura */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    height: 50vh;
+    opacity: 0.6;
+    margin: 0 auto; /* Centraliza o elemento */
+}
+
+header .principal {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    top: 150px;
+    left: 13%;
+    align-items: center; /* garantir que os elementos permaneçam centralizados*/
+
+}
+
+header p {
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    color: #e5e0df
+}
+
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 1;
+
+}
+
+.fundo-footer{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.Jogos {
+    display: flex;
+    justify-content: center;
+}
+
+.games {
+    width: 100%;
+}
+
+.bloco {
+    display: flex;
+    gap: 10px;       /* Define um espaço entre os itens */
+    margin-bottom: 20px;
+}
+
+.gender, .gender2, .gender3 {
+    list-style: none;   /* Remove os bullets(as bolinhas pretas que ficam do lado da lista) */
+}
+
+.gender img {
+    width: 100%;
+    max-width: 500px;   /* Tamanho máximo das imagens */
+    display: block;
+    margin-top: 10px;
+}
+
+.gender p,
+.gender2 p,
+.gender3 p {
+    margin-bottom: 15px;
+}
+
+.gender2 p,
+.gender3 p {
+    margin-top: 15vh;
+}
+
+@media screen and (max-width: 1920px)  {
+    
+    header .principal {
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        color: white;
+        top: 150px;
+        left: 20%;
+        align-items: center; /* garantir que os elementos permaneçam centralizados*/
+    
+    }
+    
+}
+
+@media screen and (max-height: 1080px) {
+    
+    header .principal {
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        color: white;
+        top: 150px;
+        left: 20%;
+        align-items: center; /* garantir que os elementos permaneçam centralizados*/
+    
+    }
+    
+}

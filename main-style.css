@@ -1,0 +1,128 @@
+main .fundo-main {
+   background-image: url("Exorcista.webp");
+   width: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   z-index: -1;
+   height: 100vh;
+   position: absolute;
+   left: 30%;
+   filter: blur(2px);
+   opacity: 0.2;
+}
+
+main .fundo-dois {
+   background-image: url("cemiterio.jpg");
+   filter: brightness(0.2);
+   width: 40%;                            /* tamanho */
+   background-repeat: no-repeat;          /* Para imagem de fundo nao repetir */  
+   background-size: cover;
+   background-position: left;             /* posiçao da imagem de fundo */
+   z-index: -2;
+   margin-top: 50px;
+   height: 28vh;
+   opacity: 0.6;
+
+}
+
+main .filmes {
+   text-align: center;
+   z-index: 1;
+   color: #e5e0df;
+   margin-left: 18%;
+   margin-right: 18%;
+}
+
+main h2 {
+   font-size: 50px;
+   margin-bottom: 10px;
+   font-family: sans-serif;
+   z-index: 1;
+   text-align: left;
+   padding-left: 50px;
+   padding-bottom: 50px;
+
+}
+
+main h2:hover {
+   color: red;             /* efeito de mudar de cor ao passar o cursor */
+}
+
+main p {
+   font-size: 1.2em;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: sans-serif;
+   z-index: 1;
+   color: #e5e0df;
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
+
+.primeiro li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 10px 10px;
+   box-sizing: border-box;
+   border: 2px solid #161515;
+   border-radius: 20px;
+
+}
+
+.primeiro li:hover {
+   border-color: #e5e0df;
+}
+
+main h3 {
+   font-size: 50px;
+   color: #e5e0df;
+   text-align: left;
+   font-family: sans-serif;
+   padding-left: 200px;
+   padding-bottom: 50px;
+   margin-top: 15%;
+}
+
+
+main .series {
+
+   text-align: center;
+   z-index: 1;
+   color: #e5e0df;
+   padding-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+
+}
+
+main h3:hover {
+   color: red;
+}
+
+.segundo li {
+   display: inline-block;
+   box-sizing: border-box;
+   border: 2px solid #161515;
+   width: 20%;
+   vertical-align: middle;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   border-radius: 10px;
+
+}
+
+.segundo li:hover {
+   border-color: #e5e0df;
+
+}
+
+.image {
+   max-width: 100%;
+   height: auto;
+}

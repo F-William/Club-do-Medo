@@ -1,0 +1,98 @@
+footer .fundo-footer {
+    background-image: url("Until.png");     /* definir a imagem de fundo */
+    filter: brightness(0.2);                /* ajustar o brilho */        
+    width: 100%;                            /* definir a Largura */
+    background-repeat: no-repeat;           /* para imagem nao repetir */
+    background-size: cover;                 /* para imagem se ajustar a toda a div */
+    background-position:center ;            /* foco da imagem a ser usada; ex: top,center,bottom */
+    z-index: -1;                            /* definir que fique ao fundo (atras do texto) */
+    height: 100vh;                          /* definir altura */
+    opacity: 0.7;                           /* definir nivel de ofuscaçao(escurecer) */
+    position: absolute;                     /* posiçao que permite que fique livre pra mover */
+    margin-top: 10%;                        /* definir margem externa a partir de cima */
+    max-width: 100%;                        /* imagem nao ultrapassar os limites(as extremidades) */
+
+
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer .jogos {
+    text-align: center;                     /* centralizar o texto */
+    z-index: 1;                             /* definir que fique a frente (sobre a imagem) */
+    color: #e5e0df;                       /* definir cor */
+    margin-left: 18%;                       /* definir margem externa a partir do lado esquerdo */
+    margin-right: 18%;                      /* definir margem externa a partir do lado direito */
+}
+
+footer p {
+    font-size: 1.2em;                       /* definir tamanho da fonte */
+    padding-top: 20px;                      /* definir margem interna a partir de cima */
+    padding-bottom: 20px;                   /* definir margem interna a partir de baixo */
+    font-family: sans-serif;                /* definir estilo da fonte */
+    z-index: 1;
+    color: #e5e0df;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.games li {
+    display: inline-block;               /* lado a lado mas permitir definir largura e altura */
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 0;
+    padding: 20px 10px;
+    box-sizing: content-box;             /* definir estilo, tamanho da borda */
+    border: 2px solid hsl(0, 2%, 8%);  /* definir expessura, cor da borda */
+    border-radius: 10px;                  /* arrendondar os cantos da borda */
+    position: relative;
+    left: 20%;
+
+
+}
+
+
+footer h4 {
+    font-size: 50px;
+    color: #e5e0df;
+    text-align: left;
+    font-family: sans-serif;
+    padding-left: 350px;
+    padding-bottom: 50px;
+    z-index: 1;
+    margin-top: 20%;
+
+}
+
+footer h4:hover {
+    color: red;
+}
+
+.tabela {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+footer .gender p {
+    padding-bottom: 43px;
+}
+
+footer .gender2 p {
+    padding-bottom: 45%;
+
+}
+
+
+footer .gender3 p{
+    padding-bottom: 108px;
+}
+
+.genero2{
+    text-align: justify;
+}
